@@ -59,13 +59,14 @@ https://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/putty.html?icmpid=docs
 然后一台shadowsocks服务器搭建成功，想使用请使用不同操作系统下面的shadowsocks客户端进行连接。
 
 # 注意：切换root用户教程
+sudo passwd root
 
 # 注意：VPS搭建shadowsocks搭配谷歌bbr算法使用效果显著 
-
+# 注意：在国内的用户使用kcptun效果更加显著
 #2018-12-03更新           
 
 亚马逊虽然是全球最大云计算提供商，但还是有几个缺点：  
-1.每个月15G流量  
+1.每个月15G流量(后面发现谷歌也是1个月15G,只是由于YouTube是谷歌的产品，访问YouTube不计入流量)  
 2.真的只有一年免费使用          
 3.亚马逊云真的会扣1美元（谷歌扣了会退还）
 
@@ -74,4 +75,4 @@ https://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/putty.html?icmpid=docs
 谷歌云和亚马逊云创建服务器过程类似，安装shadowsocks也类似，过程略。  
 谷歌云和亚马逊有个区别就是谷歌是可以选配机器的，可以自己调节cpu和内存，比如1核2.75G内存
 谷歌是12个月到期或者赠送的300美元使用完就结束，双重判定。
-但是谷歌有个惊天bug，就是一个人可以无限刷300美元的赠金。我已经用了第二个300美元的赠金了
+但是谷歌有个惊天bug(or福利？)，就是一个人可以无限刷300美元的赠金。我已经用了第二个300美元的赠金了
